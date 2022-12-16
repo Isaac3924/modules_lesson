@@ -20,4 +20,5 @@ Tests:
 
 ## Questions
   1. What code is repeated between the two classes?
+  
   1. How might we use a mixin to make this code better?
