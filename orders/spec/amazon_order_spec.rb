@@ -1,3 +1,4 @@
+require 'rspec'
 require './lib/amazon_order'
 
 RSpec.describe AmazonOrder do

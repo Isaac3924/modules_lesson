@@ -1,12 +1,18 @@
 # ./camry.rb
-class Camry
-  def start
-    "Engine on!"
-  end
+require './lib/engine'
+require './lib/airconditionable'
 
-  def stop
-    "Engine off!"
-  end
+class Camry
+include Engine
+include Airconditionable
+
+  # def start
+  #   "WAIIIIIIIIIIIT"
+  # end
+
+  # def stop
+  #   "WAIIIIIIIIIIIT"
+  # end  
 
   def drive
     "Back wheels go!"

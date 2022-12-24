@@ -1,3 +1,4 @@
+require 'rspec'
 require './lib/photo'
 
 RSpec.describe Photo do
